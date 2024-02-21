@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TotoList component snapshot renders TodoList component correctly 1`] = `
+<div>
+  <div
+    class="todo-list"
+  >
+    <div
+      class="mb-10"
+    >
+      <input
+        class="dark:bg-black dark:text-white border border-slate-400 h-12 pl-2 pr-2"
+        placeholder="Enter your task"
+        type="text"
+        value=""
+      />
+      <button
+        class="bg-primary text-white pl-8 pr-8 pt-3 pb-3"
+      >
+        Add
+      </button>
+    </div>
+    <table
+      class="table-auto border-collapse border border-slate-400 max-w-5xl w-full mb-10"
+    >
+      <thead>
+        <tr>
+          <th
+            class="border border-slate-300"
+          >
+            Info
+          </th>
+          <th
+            class="border border-slate-300"
+          >
+            Nav
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+    <button
+      class="bg-primary text-white pl-8 pr-8 pt-3 pb-3"
+    >
+      Clear list
+    </button>
+  </div>
+</div>
+`;

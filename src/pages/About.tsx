@@ -1,10 +1,10 @@
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import Header from "../Components/Header/Header";
+import Footer from "../Components/Footer/Footer";
 
 
 const About: React.FC = () => {
     return (
-        <div>
+        <div className="dark:bg-black dark:text-white">
             <Header />
             <main className="container mx-auto px-4 pt-10 mb-20">
                 <h1 className="text-2xl mb-5">About us</h1>
